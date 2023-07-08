@@ -1,6 +1,5 @@
-This is my phyton project for phyton class @ pacmann. I basically made a self-service cashier app for Andi, so customers can check out Andi's product even if they are
-not in the same city as Andi. 
-To start off, as a programmer we have to make the customers create an unique "User ID". 
+  This is my phyton project for phyton class @ pacmann. I basically made a self-service cashier app for Andi, so customers can check out Andi's product even if they are not in the same city as Andi. 
+  To start off, as a programmer we have to make the customers create an unique "User ID". 
 Then they have to add their desired products by typing in the product's name, qty, and price. I added "Tango" (6000), "Ultra Milk" (22000), "Ayam Goreng" (20000), "Pasta Gigi" (15000), ("Mainan Mobil", 0, 200000), "Mi Instan" (3000).
 If the customer want to add a new product, they have to type add_item(self, name, qty, price). If the input is correct, then the app will print the name, quantity, and price of the chosen product. 
 It is not rare that a customer will want to add another products already in the cart. They can do this by typing "update_item_qty(self, name, new qty)". If the name is correct, the app will print "Updated (product name) to (new quantity)" along with the updated price. But if the app cannot find the product in the cart, it will print "Item is not in the cart".  
